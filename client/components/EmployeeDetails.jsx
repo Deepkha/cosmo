@@ -39,23 +39,7 @@ const EmployeeDetails = () => {
   
 
   return (
-    // <div>
-    //   <h1>Employee Details</h1>
-    //   <p><strong>Name:</strong> {employee.name}
-    //   {console.log(employee)}</p>
-    //   <p><strong>Employee ID:</strong> {employee._id}</p>
-    //   <p><strong>Address:</strong> {employee.Address.Line1}, {employee.Address.city}, {employee.Address.country}, {employee.Address.zipcode}</p>
-    //   <h2>Contact Methods:</h2>
-    //   <ul>
-    //     <li>Email -<strong>{employee.contact.email}</strong></li>
-    //     <li>Mobile -<strong>{employee.contact.mobile}</strong></li>
-
-        
-
-    //   </ul>
-     
-    //   <Link to="/">Back to List</Link>
-    // </div>
+    
     <div className="min-h-screen bg-green-300 flex items-center justify-center py-10">
       <div className="max-w-lg mx-auto p-8 border rounded-lg shadow-2xl bg-white bg-opacity-90 backdrop-filter backdrop-blur-lg">
         <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Employee Details</h1>
